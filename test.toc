@@ -1,0 +1,22 @@
+\contentsline {chapter}{Inserted PDF}{i}{Doc-Start}%
+\contentsline {chapter}{Kata Pengantar}{ii}{chapter*.1}%
+\contentsline {chapter}{Abstrak}{iii}{chapter*.2}%
+\contentsline {chapter}{Abstract}{iv}{chapter*.3}%
+\contentsline {chapter}{Daftar Isi}{v}{chapter*.4}%
+\contentsline {chapter}{Daftar Gambar}{vi}{chapter*.5}%
+\contentsline {chapter}{Daftar Tabel}{vii}{chapter*.6}%
+\contentsline {chapter}{Daftar Listing}{viii}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Pendahuluan}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}A subsection}{4}{subsection.1.1.1}%
+\contentsline {chapter}{\numberline {2}Landasan Teori}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Graphs}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Block quotes}{8}{section.2.2}%
+\contentsline {chapter}{\numberline {3}This is in a Different File}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Math Stuff}{10}{section.3.1}%
+\contentsline {chapter}{\numberline {4}This is in a Different File}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Section Title}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Tables Tables Tables}{13}{section.4.2}%
+\contentsline {chapter}{Bibliography}{14}{chapter*.11}%
+\contentsline {chapter}{something}{15}{appendix*.12}%
+\contentsline {section}{\numberline {.1}Appendix Code}{15}{section.1..1}%

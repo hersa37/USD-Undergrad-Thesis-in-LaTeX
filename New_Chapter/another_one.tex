@@ -1,0 +1,29 @@
+\chapter{This is in a Different File}
+Well well well, what do we have here?. Use this command in the document body to insert the contents of another file named filename.tex; again this file should not contain any LATEX preamble. LATEX will start a new page before processing the material input from filename.tex. Make sure not to include the extension .tex in the filename, as this will stop the file from being input (the extension can optionally be included with input and import). It is not possible to nest include commands. Each file that gets has its own .aux file storing information of created labels and contents for the table of contents, list of figures, etc. You can use  with a comma separated list of file names (make sure that there are no leading or trailing spaces). If you do this LATEX will only process the files contained in that list. This can be used to enhance compilation speed if you're only working on a small part of a bigger document. Page numbers and cross references will however still work, as the .aux files of left out files will still be processed.
+\section{Section Title}
+
+\begin{figure}[H] % Use H from the float package so image shows up in the part of text where you put the environment
+
+	\centering
+	\includegraphics[width=5cm]{usd}
+	\caption{USD Logo}
+\end{figure}
+
+What on earth is this?
+
+\lipsum[1-2]
+
+\section{Tables Tables Tables}
+
+\begin{table}[h]
+	\caption{A table of numbers}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+				\hline
+			First&Second&Third\\
+				\hline
+			1&2&3\\
+				\hline
+		\end{tabular}
+	\end{center}
+\end{table}
