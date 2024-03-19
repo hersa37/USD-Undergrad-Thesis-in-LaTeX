@@ -10,5 +10,7 @@ Even so, this is an attempt at making a proper template. This repo itself is sti
 To run it, open [test.tex](test.tex) use TeXStudio and set the build to use LuaLatex.
 
 ## TODO
-As of now, TODO is integrated into the TeX file. Will add it separately to this readme once I have more time to do so
+As of now, TODO is integrated into the TeX file. Will add it separately to this readme once I have more time to do so. 
+
+Also need to clean up the main directory. Need a way for the buildfiles to be hidden or removed once build is done.
 
