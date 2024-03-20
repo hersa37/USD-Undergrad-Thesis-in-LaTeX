@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2024.2.19)  18 MAR 2024 15:51
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2024.2.19)  20 MAR 2024 15:35
  restricted system commands enabled.
 **test.tex
 (./test.tex
@@ -1382,7 +1382,7 @@ Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numbox=\box79
 )
 Package tocbasic Info: omitting babel extension for `atoc'
-(tocbasic)             because of missing \bbl@set@language on input line 135.
+(tocbasic)             because of missing \bbl@set@language on input line 138.
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
 ts.external.code.tex
@@ -1390,103 +1390,101 @@ ts.external.code.tex
 ibraryexternal.code.tex
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzexternalshared.code.tex)))
-\openout5 = test.auxlock
-
 \@quotelevel=\count525
 \@quotereset=\count526
  (./test.aux)
 \openout1 = test.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-65.
+67.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 165.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 165.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 165.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 165.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 165.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 165.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 165.
-LaTeX Font Info:    Redeclaring math accent \check on input line 165.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 165.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 165.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 165.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 165.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 167.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 167.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 167.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 167.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 167.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 167.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 167.
+LaTeX Font Info:    Redeclaring math accent \check on input line 167.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 167.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 167.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 167.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 167.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 165.
+(Font)              `operators' in the math version `normal' on input line 167.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
-65.
+67.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 165.
+(Font)              `operators' in the math version `bold' on input line 167.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-165.
+167.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 165.
+input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 165.
+ 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-165.
+167.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 165.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/pcr/m/n on input line 165.
+(Font)                  OT1/cmtt/m/n --> TU/pcr/m/n on input line 167.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 165.
+input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 165.
+e 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 165.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 167.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/pcr/b/n on input line 165.
+(Font)                  OT1/cmtt/m/n --> TU/pcr/b/n on input line 167.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1549,11 +1547,11 @@ Package newfloat Info: `float' package detected.
 No file pythontex-files-test/test.pytxmcr.
 Run PythonTeX to create it.
 Package newfloat Info: New float `listing' with options `fileext=lopytx' on inp
-ut line 165.
+ut line 167.
 \c@listing=\count534
-Package newfloat Info: float type `listing'=8 on input line 165.
+Package newfloat Info: float type `listing'=8 on input line 167.
 Package tocbasic Info: omitting babel extension for `lopytx'
-(tocbasic)             because of missing \bbl@set@language on input line 165.
+(tocbasic)             because of missing \bbl@set@language on input line 167.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1570,9 +1568,9 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package scrwfile Info: Using immediate redefinition of `\@starttoc' on input li
-ne 165.
-Package scrwfile Info: Extending `\@starttoc`  on input line 165.
-Package hyperref Info: Link coloring OFF on input line 165.
+ne 167.
+Package scrwfile Info: Extending `\@starttoc`  on input line 167.
+Package hyperref Info: Link coloring OFF on input line 167.
 
 (./test.out) (./test.out)
 \@outlinefile=\write7
@@ -1618,12 +1616,12 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'test.bbl' found.
 
 (./test.bbl)
-Package biblatex Info: Reference section=0 on input line 165.
-Package biblatex Info: Reference segment=0 on input line 165.
-<usd.png, id=95, 1084.05pt x 1084.05pt>
+Package biblatex Info: Reference section=0 on input line 167.
+Package biblatex Info: Reference segment=0 on input line 167.
+<usd.png, id=107, 1084.05pt x 1084.05pt>
 File: usd.png Graphic file (type png)
 <use usd.png>
-Package luatex.def Info: usd.png  used on input line 184.
+Package luatex.def Info: usd.png  used on input line 186.
 (luatex.def)             Requested size: 142.26378pt x 142.25475pt.
  [1
 
@@ -1632,17 +1630,17 @@ Package luatex.def Info: usd.png  used on input line 184.
 >]
 warning  (file Breakwater.pdf) (pdf inclusion): PDF inclusion: found PDF version
  '1.6', but at most version '1.5' allowed
-<Breakwater.pdf, id=103, 845.1575pt x 597.23125pt>
+<Breakwater.pdf, id=115, 845.1575pt x 597.23125pt>
 File: Breakwater.pdf Graphic file (type pdf)
 <use Breakwater.pdf>
-Package luatex.def Info: Breakwater.pdf  used on input line 207.
+Package luatex.def Info: Breakwater.pdf  used on input line 209.
 (luatex.def)             Requested size: 845.15544pt x 597.22978pt.
 
 warning  (file Breakwater.pdf) (pdf inclusion): PDF inclusion: found PDF version
  '1.6', but at most version '1.5' allowed
 File: Breakwater.pdf Graphic file (type pdf)
 <use Breakwater.pdf>
-Package luatex.def Info: Breakwater.pdf  used on input line 207.
+Package luatex.def Info: Breakwater.pdf  used on input line 209.
 (luatex.def)             Requested size: 845.15544pt x 597.22978pt.
 
 warning  (file Breakwater.pdf) (pdf inclusion): PDF inclusion: found PDF version
@@ -1650,26 +1648,26 @@ warning  (file Breakwater.pdf) (pdf inclusion): PDF inclusion: found PDF version
 
 warning  (file Breakwater.pdf) (pdf inclusion): PDF inclusion: found PDF version
  '1.6', but at most version '1.5' allowed
-<Breakwater.pdf, id=106, page=1, 845.1575pt x 597.23125pt>
+<Breakwater.pdf, id=118, page=1, 845.1575pt x 597.23125pt>
 File: Breakwater.pdf Graphic file (type pdf)
 <use Breakwater.pdf, page 1>
-Package luatex.def Info: Breakwater.pdf , page1 used on input line 207.
+Package luatex.def Info: Breakwater.pdf , page1 used on input line 209.
 (luatex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Breakwater.pdf Graphic file (type pdf)
 <use Breakwater.pdf, page 1>
-Package luatex.def Info: Breakwater.pdf , page1 used on input line 207.
+Package luatex.def Info: Breakwater.pdf , page1 used on input line 209.
 (luatex.def)             Requested size: 614.40643pt x 434.1708pt.
 File: Breakwater.pdf Graphic file (type pdf)
 <use Breakwater.pdf, page 1>
-Package luatex.def Info: Breakwater.pdf , page1 used on input line 207.
+Package luatex.def Info: Breakwater.pdf , page1 used on input line 209.
 (luatex.def)             Requested size: 614.40643pt x 434.1708pt.
 File: Breakwater.pdf Graphic file (type pdf)
 <use Breakwater.pdf, page 1>
-Package luatex.def Info: Breakwater.pdf , page1 used on input line 207.
+Package luatex.def Info: Breakwater.pdf , page1 used on input line 209.
 (luatex.def)             Requested size: 614.40643pt x 434.1708pt.
 File: Breakwater.pdf Graphic file (type pdf)
 <use Breakwater.pdf, page 1>
-Package luatex.def Info: Breakwater.pdf , page1 used on input line 207.
+Package luatex.def Info: Breakwater.pdf , page1 used on input line 209.
 (luatex.def)             Requested size: 614.40643pt x 434.1708pt.
 [1
 
@@ -1762,8 +1760,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9
 
-]
+] (./Skripsi/Pendahuluan/pendahuluan.tex
 Chapter 1.
+) (./Skripsi/Landasan_Teori/landasan_teori.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+
+]
+Chapter 2.
+)
 
 Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                'english' will be used instead.
@@ -1779,26 +1794,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1
-
+[2
 
 ]
-Overfull \hbox (3.28654pt too wide) in paragraph at lines 241--241
-\TU/TimesNewRoman(0)/m/n/12 cidunt ul-tri-ces. Lorem ip-sum do-lor sit amet, con
--sectetuer adip-isc-ing elit. In hac habitasse
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[2]
+Chapter 3.
+\c@pytx@py@default@default@line=\count535
+(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1807,7 +1810,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
+[3
+
+]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 256.
+ (./Mahasiswa.java)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1817,14 +1825,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-\c@pytx@py@default@default@line=\count535
- (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 249.
-
-(./Mahasiswa.java
+Chapter 4.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1833,54 +1834,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[6]
-Chapter 2.
-
-\openout5 = test.auxlock
-===== 'mode=convert with system call': Invoking 'lualatex -halt-on-error -inter
-action=batchmode -jobname "test-figure0" "\def\tikzexternalrealjob{test}\input{
-test}"' ========
-
-\openout5 = test.auxlock
-
-! Package tikz Error: Sorry, the system call 'lualatex -halt-on-error -interact
-ion=batchmode -jobname "test-figure0" "\def\tikzexternalrealjob{test}\input{tes
-t}"' did NOT result in a usable output file 'test-figure0' (expected one of .pd
-f:.jpg:.jpeg:.png:). Please verify that you have enabled system calls. For pdfl
-atex, this is 'pdflatex -shell-escape'. Sometimes it is also named 'write 18' o
-r something like that. Or maybe the command simply failed? Error messages can b
-e found in 'test-figure0.log'. If you continue now, I'll try to typeset the pic
-ture.
-
-See the tikz package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.287 \end{tikzpicture}
-                     
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7
+[5
 
 ]
 
@@ -1891,8 +1845,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
-Overfull \hbox (0.10866pt too wide) in paragraph at lines 297--298
+[6]
+Overfull \hbox (0.10866pt too wide) in paragraph at lines 304--305
 []\TU/TimesNewRoman(0)/m/n/12 An-other ex-am-ple of ci-ta-tion is us-ing this (s
 ee[] ``Gen-er-at-ing Bib-li-ogra-phies with bibla-
  []
@@ -1906,8 +1860,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9]
-Chapter 3.
+[7]
+Chapter 5.
 ) (./New_Chapter/another_one.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1917,11 +1871,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10
+[8
 
 ]
-Chapter 4.
-<New_Chapter/usd.png, id=286, 1084.05pt x 1084.05pt>
+Chapter 6.
+<New_Chapter/usd.png, id=297, 1084.05pt x 1084.05pt>
 File: New_Chapter/usd.png Graphic file (type png)
 <use New_Chapter/usd.png>
 Package luatex.def Info: New_Chapter/usd.png  used on input line 8.
@@ -1934,7 +1888,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11
+[9
 
 ]
 
@@ -1945,7 +1899,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12<./New_Chapter/usd.png>])
+[10<./New_Chapter/usd.png>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1954,13 +1908,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
-Overfull \hbox (1.13046pt too wide) in paragraph at lines 315--315
+[11]
+Overfull \hbox (1.13046pt too wide) in paragraph at lines 322--322
 [][]\TU/TimesNewRoman(0)/m/it/12 Gen-er-at-ing bib-li-ogra-phies with bibla-tex and biber\TU/TimesNewRoman(0)/m/n/12 . (2016). Wik-i-books. Re-trieved March
  []
 
 
-Overfull \hbox (4.28873pt too wide) in paragraph at lines 315--315
+Overfull \hbox (4.28873pt too wide) in paragraph at lines 322--322
 \TU/TimesNewRoman(0)/m/n/12 7, 2016, from []$https : / / en . wikibooks . org / wiki / LaTeX / Generating _ Bibliographies _
  []
 
@@ -1972,7 +1926,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14
+[12
 
 
 ]
@@ -1984,7 +1938,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15
+[13
 
 ]
 \openout2 = test.wrt
@@ -2004,23 +1958,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
-Package rerunfilecheck Info: File `test.out' has not changed.
-(rerunfilecheck)             Checksum: 612D95BFD992580A96FEB59A6CA4CDAB;2595.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `test.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `test.out':
+(rerunfilecheck)             Before: 9675E95E338CBE3F267DC3A9FAB5C066;2820
+(rerunfilecheck)             After:  D55AED2F653C30E4740EA16411B8F4D4;2926.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                test
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'test.run.xml'.
 
 \openout1 = test.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 50637 strings out of 476473
+ 50656 strings out of 476473
  125161,2848258 words of node,token memory allocated
- 613 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 13 attribute, 69 glue_spec
-, 13 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 2:1931,3:1135,4:43,5:777,6:98,7:5132,8:85,9:2573,10:11,11:385
- 71342 multiletter control sequences out of 65536+600000
+ 623 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 14 attribute, 69 glue_spec
+, 14 attribute_list, 2 write, 2 pdf_action nodes
+   avail lists: 1:1,2:1986,3:1135,4:51,5:857,6:109,7:4523,8:120,9:2940,10:11,11:
+220
+ 71361 multiletter control sequences out of 65536+600000
  70 fonts using 20852831 bytes
- 100i,18n,97p,1141b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,17n,97p,1141b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'appendix*.11'
 </usr/local/share/fonts/t/timesi.ttf></usr/local/share/fonts/t/times.ttf></usr/l
 ocal/share/fonts/t/timesbd.ttf></usr/local/texlive/2023/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
@@ -2028,10 +2000,10 @@ lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmtt10.pfb>
-Output written on test.pdf (25 pages, 498978 bytes).
+Output written on test.pdf (23 pages, 496246 bytes).
 
-PDF statistics: 362 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
- 106 named destinations out of 1000 (max. 131072)
- 192 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 377 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 110 named destinations out of 1000 (max. 131072)
+ 216 words of extra memory for PDF output out of 10000 (max. 100000000)
 

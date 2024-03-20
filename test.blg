@@ -1,19 +1,25 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'test.blg'
-[45] biber:340> INFO - === Sat Feb 24, 2024, 00:39:39
-[56] Biber.pm:419> INFO - Reading 'test.bcf'
-[113] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
-[128] Biber.pm:4419> INFO - Processing section 0
-[135] Biber.pm:4610> INFO - Looking for bibtex file 'citations.bib' for section 0
-[136] bibtex.pm:1713> INFO - LaTeX decoding ...
-[138] bibtex.pm:1519> INFO - Found BibTeX data source 'citations.bib'
-[173] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[173] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[173] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[173] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[181] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[181] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[181] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[181] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[186] bbl.pm:660> INFO - Writing 'test.bbl' with encoding 'UTF-8'
-[188] bbl.pm:763> INFO - Output to test.bbl
+[61] biber:340> INFO - === Wed Mar 20, 2024, 15:31:56
+[72] Biber.pm:419> INFO - Reading 'test.bcf'
+[130] Biber.pm:979> INFO - Found 4 citekeys in bib section 0
+[143] Biber.pm:4419> INFO - Processing section 0
+[151] Biber.pm:4610> INFO - Looking for bibtex file 'examplecitations.bib' for section 0
+[151] bibtex.pm:1713> INFO - LaTeX decoding ...
+[154] bibtex.pm:1519> INFO - Found BibTeX data source 'examplecitations.bib'
+[177] Biber.pm:4610> INFO - Looking for bibtex file 'Skripsi/citations.bib' for section 0
+[178] bibtex.pm:1713> INFO - LaTeX decoding ...
+[184] bibtex.pm:1519> INFO - Found BibTeX data source 'Skripsi/citations.bib'
+[185] Biber.pm:4610> INFO - Looking for bibtex file 'Skripsi/websiteCitations.bib' for section 0
+[185] bibtex.pm:1713> INFO - LaTeX decoding ...
+[187] bibtex.pm:1519> INFO - Found BibTeX data source 'Skripsi/websiteCitations.bib'
+[197] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[197] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[197] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[197] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[206] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[206] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[206] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[206] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[211] bbl.pm:660> INFO - Writing 'test.bbl' with encoding 'UTF-8'
+[213] bbl.pm:763> INFO - Output to test.bbl

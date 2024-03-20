@@ -31,44 +31,58 @@
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}\protected@file@percent }
 \@writefile{atoc}{\contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}A subsection}{4}{subsection.1.1.1}\protected@file@percent }
-\@writefile{atoc}{\contentsline {subsection}{\numberline {1.1.1}A subsection}{4}{subsection.1.1.1}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {1.1}{\ignorespaces Manual input}}{5}{lstlisting.1.1}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {1.2}{\ignorespaces Test java}}{5}{lstlisting.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}Landasan Teori}{7}{chapter.2}\protected@file@percent }
-\@writefile{atoc}{\contentsline {chapter}{\numberline {2}Landasan Teori}{7}{chapter.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Landasan Teori}{2}{chapter.2}\protected@file@percent }
+\@writefile{atoc}{\contentsline {chapter}{\numberline {2}Landasan Teori}{2}{chapter.2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lopytx}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}Graphs}{8}{section.2.1}\protected@file@percent }
-\@writefile{atoc}{\contentsline {section}{\numberline {2.1}Graphs}{8}{section.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}Block quotes}{8}{section.2.2}\protected@file@percent }
-\@writefile{atoc}{\contentsline {section}{\numberline {2.2}Block quotes}{8}{section.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}This is in a Different File}{10}{chapter.3}\protected@file@percent }
-\@writefile{atoc}{\contentsline {chapter}{\numberline {3}This is in a Different File}{10}{chapter.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}CNN}{2}{section.2.1}\protected@file@percent }
+\@writefile{atoc}{\contentsline {section}{\numberline {2.1}CNN}{2}{section.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Trial}{3}{chapter.3}\protected@file@percent }
+\@writefile{atoc}{\contentsline {chapter}{\numberline {3}Trial}{3}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lopytx}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Math Stuff}{10}{section.3.1}\protected@file@percent }
-\@writefile{atoc}{\contentsline {section}{\numberline {3.1}Math Stuff}{10}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}This is in a Different File}{11}{chapter.4}\protected@file@percent }
-\@writefile{atoc}{\contentsline {chapter}{\numberline {4}This is in a Different File}{11}{chapter.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Test}{3}{section.3.1}\protected@file@percent }
+\@writefile{atoc}{\contentsline {section}{\numberline {3.1}Test}{3}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}A subsection}{3}{subsection.3.1.1}\protected@file@percent }
+\@writefile{atoc}{\contentsline {subsection}{\numberline {3.1.1}A subsection}{3}{subsection.3.1.1}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.1}{\ignorespaces Manual input}}{4}{lstlisting.3.1}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.2}{\ignorespaces Test java}}{4}{lstlisting.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Landasan Teori}{5}{chapter.4}\protected@file@percent }
+\@writefile{atoc}{\contentsline {chapter}{\numberline {4}Landasan Teori}{5}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lopytx}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Section Title}{12}{section.4.1}\protected@file@percent }
-\@writefile{atoc}{\contentsline {section}{\numberline {4.1}Section Title}{12}{section.4.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces USD Logo}}{12}{figure.caption.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Tables Tables Tables}{13}{section.4.2}\protected@file@percent }
-\@writefile{atoc}{\contentsline {section}{\numberline {4.2}Tables Tables Tables}{13}{section.4.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces A table of numbers}}{13}{table.caption.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{14}{chapter*.11}\protected@file@percent }
-\@writefile{atoc}{\contentsline {chapter}{Bibliography}{14}{chapter*.11}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{something}{15}{appendix*.12}\protected@file@percent }
-\@writefile{atoc}{\contentsline {chapter}{something}{15}{appendix*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Graphs}{6}{section.4.1}\protected@file@percent }
+\@writefile{atoc}{\contentsline {section}{\numberline {4.1}Graphs}{6}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Block quotes}{6}{section.4.2}\protected@file@percent }
+\@writefile{atoc}{\contentsline {section}{\numberline {4.2}Block quotes}{6}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}This is in a Different File}{8}{chapter.5}\protected@file@percent }
+\@writefile{atoc}{\contentsline {chapter}{\numberline {5}This is in a Different File}{8}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lopytx}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {.1}Appendix Code}{15}{section.1..1}\protected@file@percent }
-\@writefile{atoc}{\contentsline {section}{\numberline {.1}Appendix Code}{15}{section.1..1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Math Stuff}{8}{section.5.1}\protected@file@percent }
+\@writefile{atoc}{\contentsline {section}{\numberline {5.1}Math Stuff}{8}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}This is in a Different File}{9}{chapter.6}\protected@file@percent }
+\@writefile{atoc}{\contentsline {chapter}{\numberline {6}This is in a Different File}{9}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lopytx}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Section Title}{10}{section.6.1}\protected@file@percent }
+\@writefile{atoc}{\contentsline {section}{\numberline {6.1}Section Title}{10}{section.6.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces USD Logo}}{10}{figure.caption.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Tables Tables Tables}{11}{section.6.2}\protected@file@percent }
+\@writefile{atoc}{\contentsline {section}{\numberline {6.2}Tables Tables Tables}{11}{section.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces A table of numbers}}{11}{table.caption.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{12}{chapter*.11}\protected@file@percent }
+\@writefile{atoc}{\contentsline {chapter}{Bibliography}{12}{chapter*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{something}{13}{appendix*.12}\protected@file@percent }
+\@writefile{atoc}{\contentsline {chapter}{something}{13}{appendix*.12}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lopytx}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {.1}Appendix Code}{13}{section.1..1}\protected@file@percent }
+\@writefile{atoc}{\contentsline {section}{\numberline {.1}Appendix Code}{13}{section.1..1}\protected@file@percent }
 \@writefile{atoc}{\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file }

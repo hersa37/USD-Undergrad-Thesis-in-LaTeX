@@ -1,7 +1,7 @@
 %======================== USD Thesis Template ==============================%
 % Made according to the guide, keeping in mind the guide was made for Word
 % TODO: Make a copy of this file that can be used right away once everything is done
-\documentclass[oneside,12pt]{book} 
+\documentclass[oneside,12pt]{book}
 
 
 \usepackage{titlesec} % Manage chapter and sections
@@ -50,7 +50,10 @@
 	]
 	{biblatex}
 
-\addbibresource{citations.bib}
+\addbibresource{examplecitations.bib}
+\addbibresource{Skripsi/citations.bib}
+\addbibresource{Skripsi/websiteCitations.bib}
+
 
 
 
@@ -78,7 +81,7 @@
 \fancypagestyle{plain}{
 	\fancyhf{} % resets page numbering for plain style
 	\fancyhead[R]{\thepage} % sets page number to the top right of the page
-	
+
 }
 
 
@@ -112,8 +115,8 @@
 {\endlist}
 
 %============= Table of contents modifications ==========%
-% TODO: - Add chapter label to table of contents. 
-% TODO: - Make TOC entries uppercase and not bold. 
+% TODO: - Add chapter label to table of contents.
+% TODO: - Make TOC entries uppercase and not bold.
 % TODO: - Change filler to be more dots
 \renewcommand{\contentsname}{Daftar Isi}
 \renewcommand{\listfigurename}{Daftar Gambar}
@@ -149,7 +152,6 @@
 \pgfplotsset{width=10cm, compat=1.9}
 
 \usepgfplotslibrary{external}
-\tikzexternalize
 
 
 
@@ -171,24 +173,24 @@
 		\large
 		\textbf{\MakeUppercase{\title}}
 		\vspace{2ex}
-		
-		
+
+
 		\textbf{SKRIPSI}
-		
+
 		\vspace{2ex}
-		
+
 		Diajukan untuk memenuhi salah satu syarat memeroleh gelar Sarjana \sarjana \\Program Studi \prodi
-		
-		
+
+
 		\vspace{3cm}
 		\includegraphics[width=5cm]{usd}\\
 		\vspace{1.5cm}
 		Disusun oleh:\\
 		\author\\
 		NIM: \nim\\
-		
+
 		\vspace{2cm}
-		
+
 		\MakeUppercase{
 			Fakultas \fakultas\\
 			Universitas Sanata Dharma\\
@@ -235,9 +237,14 @@
 \begin{doublespace}
 
 % \spacing{1.213}
-\chapter{Pendahuluan}
-\section{Latar Belakang}
-\lipsum[1-10]
+% Pendahuluan
+\subimport{Skripsi/Pendahuluan}{pendahuluan}
+
+% Landasan Teori
+\subimport{Skripsi/Landasan_Teori}{landasan_teori}
+
+\chapter{Trial}
+\section{Test}
 \subsection{A subsection}
 \lipsum[1-2]
 
@@ -268,28 +275,28 @@ public class HelloWorld {
 		]
 		%Below the red parabola is defined
 		\addplot [
-		domain=-10:10, 
-		samples=100, 
+		domain=-10:10,
+		samples=100,
 		color=red,
 		]
 		{x + 1};
 		\addlegendentry{\(x + 1\)}
 		%Here the blue parabola is defined
 		\addplot [
-		domain=-10:10, 
-		samples=100, 
+		domain=-10:10,
+		samples=100,
 		color=blue,
 		]
 		{-x};
 		\addlegendentry{\(-x\)}
-		
+
 	\end{axis}
 \end{tikzpicture}
 
 \section{Block quotes}
 This part is an example of making a quote. We'll fill it out with stuff so it becomes more than one line without using lorem ipsum
 \begin{quote}
-	\lipsum[1-2] \parencite{wombat2016} % Parenthesis citation. 
+	\lipsum[1-2] \parencite{wombat2016} % Parenthesis citation.
 \end{quote}
 
 According to \footcite[Quote from][According to me, this is really neat]{lion2010}, this is something. What can we learn from this exercise? Well, if we add another paragraph, bla bla bla bla bla.
@@ -317,15 +324,15 @@ Another example of citation is using this \parencite[see][page 12]{wikibook}
 
 \begin{appendices}
 	\chapter{something}
-	
+
 	\section{Appendix Code}
 	\begin{lstlisting}[language=java, style=skripsilisting]
-		
+
 		public static void main(String[] args) {
 			System.out.println("Wooo, cool!");
 		}
 	\end{lstlisting}
-	
+
 \end{appendices}
 
 
