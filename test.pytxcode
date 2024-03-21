@@ -1,5 +1,3 @@
-=>PYTHONTEX#py#default#default#0#code#####251#
-print("hello world")
 =>PYTHONTEX:SETTINGS#
 version=0.18
 outputdir=pythontex-files-test

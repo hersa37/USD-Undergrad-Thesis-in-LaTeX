@@ -19,30 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
-    \entry{pantautraffic_cnn}{online}{}
-      \list{organization}{1}{%
-        {CNN Indonesia}%
-      }
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{title}{Cara Melihat CCTV untuk Pantau Lalu Lintas Lewat Ponsel}
-      \field{urlday}{28}
-      \field{urlmonth}{1}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.cnnindonesia.com/otomotif/20240117094628-584-1050580/cara-melihat-cctv-untuk-pantau-lalu-lintas-lewat-ponsel
-      \endverb
-      \verb{url}
-      \verb https://www.cnnindonesia.com/otomotif/20240117094628-584-1050580/cara-melihat-cctv-untuk-pantau-lalu-lintas-lewat-ponsel
-      \endverb
-      \keyw{untrusted,news}
-    \endentry
     \entry{wikibook}{online}{}
       \list{organization}{1}{%
         {Wikibooks}%
@@ -145,30 +121,6 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
-    \entry{pantautraffic_cnn}{online}{}
-      \list{organization}{1}{%
-        {CNN Indonesia}%
-      }
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{title}{Cara Melihat CCTV untuk Pantau Lalu Lintas Lewat Ponsel}
-      \field{urlday}{28}
-      \field{urlmonth}{1}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.cnnindonesia.com/otomotif/20240117094628-584-1050580/cara-melihat-cctv-untuk-pantau-lalu-lintas-lewat-ponsel
-      \endverb
-      \verb{url}
-      \verb https://www.cnnindonesia.com/otomotif/20240117094628-584-1050580/cara-melihat-cctv-untuk-pantau-lalu-lintas-lewat-ponsel
-      \endverb
-      \keyw{untrusted,news}
-    \endentry
     \entry{wikibook}{online}{}
       \list{organization}{1}{%
         {Wikibooks}%

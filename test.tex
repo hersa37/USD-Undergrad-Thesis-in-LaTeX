@@ -12,6 +12,7 @@
 \usepackage[portrait, left=4cm, right=3cm, top=3cm, bottom=3cm]{geometry} % set margins
 \usepackage{indentfirst} % indents first line after section
 \usepackage{setspace}
+\usepackage{tocloft} % TOC modifications
 \usepackage{listings} % Allow writing code
 \usepackage{courier} % Code listing font family
 \usepackage{import} % used to import files from different directories
@@ -20,14 +21,13 @@
 \usepackage[numbib]{tocbibind}
 \usepackage[labelfont=bf, labelsep=period]{caption} % Manages captions. Changed to bold and separated using period
 \usepackage{pdfpages} % Allows adding pdfs as pages
-% \usepackage{tocloft} % TOC modifications
 \usepackage{caption} % Used to create custom caption groups
 \usepackage{amsmath} % Package for math
 \usepackage{scrwfile} % used to edit the appendix toc
 \usepackage{hyperref} % Hyperlink for references
-\usepackage{appendix}
-\usepackage{pythontex}
+\usepackage[toc, titletoc]{appendix} % For appendix-related things. Still not sure how to use it
 \usepackage{pgfplots} % For plotting graphs
+\usepackage{etoolbox} % Patching commands
 
 
 
@@ -51,13 +51,6 @@
 	{biblatex}
 
 \addbibresource{examplecitations.bib}
-\addbibresource{Skripsi/citations.bib}
-\addbibresource{Skripsi/websiteCitations.bib}
-
-
-
-
-
 
 %============================ Fonts ======================================%
 \setmainfont{Times New Roman}
@@ -68,19 +61,18 @@
 \pagestyle{fancy}
 
 % Header settings
-\fancyhead[L, C]{} % Resets the left and center header to show nothing
-\renewcommand{\headrulewidth}{0pt} % removes the header line
-\fancyhead[R]{\textbf{Example Header}} % Shows text on right header
+\fancyhead[L, C]{} 									% Resets the left and center header to show nothing
+\renewcommand{\headrulewidth}{0pt} 					% removes the header line
+\fancyhead[R]{\thepage} 							% Shows page number on the right side of header. \thepage is the page number variable
 
 % Footer settings
-\fancyfoot{} % Clears settings
-\fancyfoot[L]{Made by Hersa} % shows up even if page doesn't have numbering
-\fancyfoot[R]{\thepage}
+\fancyfoot{}				 						% Clears settings
+\fancyfoot[L]{Made by Hersa} 						% shows up even if page doesn't have numbering
 
 % alter chapter-page numbering
-\fancypagestyle{plain}{
+\fancypagestyle{plain}{								% In fancyhrd, chapter pages use the plain style. Modify this to modify page numbering for chapter pages
 	\fancyhf{} % resets page numbering for plain style
-	\fancyhead[R]{\thepage} % sets page number to the top right of the page
+	\fancyfoot[R]{\thepage} % sets page number to the top right of the page
 
 }
 
@@ -88,24 +80,22 @@
 %=================== Chapter numbering =====================%
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+
 \titleformat % used to edit titles with titlesec
 	{\chapter} % which command to edit
 	[display] % shape
 	{\bfseries\Large\centering} % format of the title
-	{Bab \ \thechapter} % label
+	{\uppercase{Bab} \thechapter} % label
 	{0.5ex} % seperator
-	{
-		\centering
-	} % before-code
-	[
-	\vspace{-0.5ex}%
-	] % after-code
+	{\uppercase} % before-code
+	[\vspace{-0.5ex}] % after-code
 
 \titlespacing{\chapter}{0pt}{0pt}{20pt} % Adjusts chapter title margin
 
 
 %================== Quote modifications =============%
-\renewenvironment{quote}{% Quotes are internally lists, somehow. Probably unmarked list
+\renewenvironment{quote} {% Quotes are internally lists, somehow. Probably unmarked list
 	\list{}{%
 		\leftmargin0.5in   % this is the adjusting margin
 		\rightmargin0cm
@@ -118,35 +108,122 @@
 % TODO: - Add chapter label to table of contents.
 % TODO: - Make TOC entries uppercase and not bold.
 % TODO: - Change filler to be more dots
-\renewcommand{\contentsname}{Daftar Isi}
-\renewcommand{\listfigurename}{Daftar Gambar}
-\renewcommand{\lstlistlistingname}{Daftar Listing}
-\renewcommand{\listtablename}{Daftar Tabel}
-
-% TODO: Figure out how to make this work with only main matter
-% TODO: Figure out why using tocloft made TOC into sections instead of chapters
-%\renewcommand{\cftchappresnum}{Chapter ~}
-%\renewcommand{\cftfigpresnum}{figure~}
-%\renewcommand{\cfttabpresnum}{table~}
-%\renewcommand{\cftchapnumwidth}{3cm}
-%\renewcommand{\cftfignumwidth}{2cm}
-%\renewcommand{\cfttabnumwidth}{2cm}
-%\addtocontents{toc}{\protect\contentsline{chapter}{Chapter:}{Page}}
-%\usepackage{capt-of}
-
-% TODO: HOW DO I MAKE APPENDICES WORK?????
-\TOCclone[Daftar Lampiran]{toc}{atoc}
-\addtocontents{atoc}{\protect\value{tocdepth}=-1}
-\newcommand\listofappendices{\listofatoc}
-
-\newcommand*\savedtocdepth{}
-\AtBeginDocument{%
-	\edef\savedtocdepth{\the\value{tocdepth}}%
+% Create new list of lampiran using tocloft
+\newcommand{\listlampiranname}{\hfill \Large DAFTAR LAMPIRAN \hfill}
+\newlistof{lampiran}{lmp}{\listlampiranname}
+\newcommand{\lampiran}[1]{ %
+	\refstepcounter{lampiran}
+	\par\noindent\textbf{Lampiran \thelampiran: #1}
+	\addcontentsline{lmp}{lampiran}{\protect\numberline{\thelampiran} {#1}}
+	\par
 }
 
+\newcommand{\listlistingname}{\hfill \Large DAFTAR LISTING \hfill}
+\newlistof{listing}{ltsg}{\listlistingname}
+\newcommand{\listing}[1]{
+	\refstepcounter{listing}
+	\par\noindent{\hfill \textbf{Listing}. #1}
+	\addcontentsline{lstg}{listing}{\protect\numberline{\thelisting} {#1}}
+}
+
+\setcounter{tocdepth}{0}											% Sets depth of entries shown on ToC. 0 means only up to chapters
+
+
+%***** ToC title modifications
+\renewcommand{\contentsname}{DAFTAR ISI}							% Changes ToC title
+\renewcommand{\listfigurename}{DAFTAR GAMBAR}
+\renewcommand{\lstlistlistingname}{DAFTAR LISTING}
+\renewcommand{\listtablename}{DAFTAR TABEL}
+
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}				% Changes style of ToC title. Sets left side to fill horizontal, Large font, bold
+\renewcommand{\cftaftertoctitle}{\hfill}							% Sets to fill horizontal so the text is in the middle
+\renewcommand{\cftloftitlefont}{\hfill\Large\bfseries}				% Figures
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\Large\bfseries}				% Tables
+\renewcommand{\cftafterlottitle}{\hfill}
+
+
+
+% TODO List of listing still not working with tocloft
+
+%****** TOC ENTRY MODIFICATIONS *******
+
+%***** TOC
+% Makes it so tocloft chapter accepts argument
+\makeatletter
+\patchcmd{\l@chapter}
+{\cftchapfont #1}%   search pattern
+{\cftchapfont {#1}}% replace by
+{}%                  success
+{}%                  failure
+\makeatother
+
+
+\renewcommand{\cftchappresnum}{BAB } 						% Adds the word "BAB " before toc chapter numbering
+\setlength\cftchapnumwidth{3.8em} 							% sets width of number box (adjusted so number doesn't overlap with chapter naming). If chapter has no number, then doesn't add word
+\renewcommand{\cftchapdotsep}{1} 							% Sets distance between dots
+\renewcommand{\cftchapleader}{\cftdotfill{\cftchapdotsep}}	% Adds dots to chapter entry on toc
+\renewcommand\cftchapfont{\uppercase}						% Sets TOC entries as uppercase
+\renewcommand\cftchappagefont{}								% Sets font for the entries. Left empty so it removes bold. Can be adjusted for size
+
+%***** Figures
+\makeatletter
+\patchcmd{\l@figure}
+{\cftfigfont #1}
+{\cftfigfont {#1}}
+{}{}
+\makeatother
+
+\renewcommand{\cftfigpresnum}{GAMBAR }
+\setlength{\cftfignumwidth}{7em}
+\renewcommand{\cftfigdotsep}{1}
+\renewcommand{\cftfigleader}{\cftdotfill{\cftfigdotsep}}
+\renewcommand{\cftfigfont}{\uppercase}
+\renewcommand{\cftfigpagefont}{}
+\renewcommand{\cftfigindent}{0pt}
+
+
+%***** Tables
+\makeatletter
+\patchcmd{\l@table}
+{\cfttabfont #1}
+{\cfttabfont {#1}}
+{}{}
+\makeatother
+
+\renewcommand{\cfttabpresnum}{TABEL }
+\setlength{\cfttabnumwidth}{6em}
+\renewcommand{\cfttabdotsep}{1}
+\renewcommand{\cfttableader}{\cftdotfill{\cfttabdotsep}}
+\renewcommand{\cfttabfont}{\uppercase}
+\renewcommand{\cfttabpagefont}{}
+\renewcommand{\cfttabindent}{0pt}
+
+%***** Listing
+% TODO:
+
+
+%***** Lampiran
+\makeatletter
+\patchcmd{\l@lampiran}
+{\cftlampiranfont #1}
+{\cftlampiranfont {#1}}
+{}{}
+\makeatother
+
+\renewcommand{\cftlampiranpresnum}{LAMPIRAN }
+\setlength{\cftlampirannumwidth}{7em}
+\renewcommand{\cftlampirandotsep}{1}
+%%\renewcommand{\cftlampiranleader}{\cftdotfill{\cftlampirandotsep}}
+\renewcommand{\cftlampiranfont}{\uppercase}
+\renewcommand{\cftlampiranpagefont}{}
+\renewcommand{\cftlampiranindent}{0pt}
 
 
 %=================== Appendix modifications ===============%
+% Create new environment for appendix
+% source: https://tex.stackexchange.com/questions/184103/how-to-define-a-custom-environment-caption-for-table-of-contents
+
 
 %================== Graph Modifications
 \pgfplotsset{width=10cm, compat=1.9}
@@ -157,7 +234,16 @@
 
 %============= Caption label modifications ==============%
 \renewcommand{\figurename}{Gambar}
+\renewcommand{\tablename}{Tabel}
 
+
+\captionsetup[table]{singlelinecheck=false}
+
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
+\AtBeginDocument{
+	\renewcommand{\thelstlisting}{\arabic{chapter}.\arabic{lstlisting}}
+}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
 %================== Code block modifications =============%
 % TODO: Maybe find a way to add colors
 \lstset{numbers=left, numberstyle=\tiny}
@@ -215,17 +301,24 @@
 
 \chapter{Abstract}
 
+\renewcommand{\thechapter}{\Roman{chapter}} % Makes chapter numbering roman numeral
+\clearpage
 \tableofcontents
 
+\renewcommand{\thechapter}{\arabic{chapter}} % Makes chapter numbering roman numeral
+\clearpage
 \listoffigures
 
+\clearpage
 \listoftables
 
+\clearpage
 \lstlistoflistings
 
-\listofappendices
-
-
+\clearpage
+\addcontentsline{toc}{chapter}{Daftar Lampiran}
+\listoflampiran
+\renewcommand{\thechapter}{\Roman{chapter}} % Makes chapter numbering roman numeral
 
 
 
@@ -237,72 +330,14 @@
 \begin{doublespace}
 
 % \spacing{1.213}
-% Pendahuluan
+% Pendahuluan - Importing from subdirectory
 \subimport{Skripsi/Pendahuluan}{pendahuluan}
 
 % Landasan Teori
 \subimport{Skripsi/Landasan_Teori}{landasan_teori}
 
-\chapter{Trial}
-\section{Test}
-\subsection{A subsection}
-\lipsum[1-2]
-
-\begin{pycode}
-print("hello world")
-\end{pycode}
-% manual code listing
-
-\begin{lstlisting}[caption=Manual input, label={listing-java-manual},language=java,style=skripsilisting]
-public class HelloWorld {
-	public static void main(String[] args) {
-		System.out.println("Hello world");
-	}
-}
-\end{lstlisting}
-
-\lstinputlisting[caption=Test java, label={lst:listing-java}, language=java, style=skripsilisting]{Mahasiswa.java}
-
-\chapter{Landasan Teori}
-\lipsum[1-2]
-
-\section{Graphs}
-\begin{tikzpicture}
-	\begin{axis}[
-		axis lines = center,
-		xlabel = \(x\),
-		ylabel = {\(f(x)\)},
-		]
-		%Below the red parabola is defined
-		\addplot [
-		domain=-10:10,
-		samples=100,
-		color=red,
-		]
-		{x + 1};
-		\addlegendentry{\(x + 1\)}
-		%Here the blue parabola is defined
-		\addplot [
-		domain=-10:10,
-		samples=100,
-		color=blue,
-		]
-		{-x};
-		\addlegendentry{\(-x\)}
-
-	\end{axis}
-\end{tikzpicture}
-
-\section{Block quotes}
-This part is an example of making a quote. We'll fill it out with stuff so it becomes more than one line without using lorem ipsum
-\begin{quote}
-	\lipsum[1-2] \parencite{wombat2016} % Parenthesis citation.
-\end{quote}
-
-According to \footcite[Quote from][According to me, this is really neat]{lion2010}, this is something. What can we learn from this exercise? Well, if we add another paragraph, bla bla bla bla bla.
-
-Another example of citation is using this \parencite[see][page 12]{wikibook}
-
+% Importing from the same directory
+\input{codeExample}
 
 
 \input{different_document}
@@ -313,27 +348,24 @@ Another example of citation is using this \parencite[see][page 12]{wikibook}
 
 \end{doublespace}
 %================= Back matters ===================%
-% Bibliography and attachments
-
-
+% Bibliography and attachments/appendices
 
 \backmatter
 
-\printbibliography[heading=bibintoc]
+\printbibliography[heading=bibintoc, title=DAFTAR PUSTAKA]
 
 
-\begin{appendices}
-	\chapter{something}
-
-	\section{Appendix Code}
-	\begin{lstlisting}[language=java, style=skripsilisting]
-
+\clearpage
+\appendix
+\addcontentsline{toc}{chapter}{Lampiran}
+\lampiran{Kode dalam Lampiran}\begin{lstlisting}[label={listing-java-manual},language=java,style=skripsilisting]
+	public class HelloWorld {
 		public static void main(String[] args) {
-			System.out.println("Wooo, cool!");
+			System.out.println("Hello world");
 		}
-	\end{lstlisting}
+	}
+\end{lstlisting}
 
-\end{appendices}
 
 
 \end{document}
